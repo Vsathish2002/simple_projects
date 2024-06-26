@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+:root {
+    --yellow:#ffc54d;
+    --red:crimson;
+    --green:#53bf9d;
+    --white:whitesmoke;
+}
+.landing {
+    background-image: url(pexels-jessica-lewis-🦋-thepaintedsquare-858094.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: var(--white);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--yellow);
+    flex-wrap: wrap;
+
+}
+header {
+    display: flex;
+    padding: 1em;
+    padding: 1em;
+    row-gap: 1em;
+
+}
+#logo {
+    flex: 3;
+    font-size: 1.25em;
+    min-width: 260px;
+}
+nav {
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    flex: 1;
+}
+nav a:hover {
+    color: var(--green);
+
+
+}
+header i {
+    padding: 0.4em;
+}
+
+.maintext {
+    display: flex;
+    flex-direction: column;
+    height : 40vh;
+    justify-content: center;
+    padding: 2em;
+    margin-top: 5rem;
+    
+}
+
+.tagline1 {
+    color: var(--red);
+    font-size: 2.5em;
+    font-weight: bolder;
+
+}
+.tagline2 {
+    color: var(--yellow);
+
+}
+
+.maintext div {
+    margin-top: .75em;
+}
+.maintext button {
+    width: 20vw;
+    margin-top: 1.5em;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: .7em;
+    background-color: var(--green);
+    color: var(--white);
+    border: 1px solid var(--green);
+
+}
+.menu {
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+     color: white;
+     
+}
+
+#menuheading,#locheading {
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+    font-size: 2.5em;
+    color: red;
+    display: flex;
+    justify-content: center;
+    
+}
+table {
+    width: 100%;
+    padding: 1em;
+
+}
+
+.menu tr {
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+} 
+.menu td:nth-child(1) {
+    flex: 1;
+    justify-content: left;
+    color: white;
+}
+
+.menu td:nth-child(2) {
+    justify-content: right;
+    color: white;
+}
+
+.maincourse {
+    grid-row: span 2;
+}
+
+.locations {
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+
+    color: white;
+    display: flex;
+}
+ 
+.locations h2 {
+    color: var(--green);
+    margin-bottom: .8em;
+}
+.locations div {
+    flex: 1;
+    padding: 1em;
+    min-width:220px;
+}
+
+footer {
+    background-color: rgb(55,52,52);
+    color: wheat;
+    padding: .25em 1em;
+}
+
+
+
